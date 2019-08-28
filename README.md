@@ -21,3 +21,12 @@ For run app:
 $ flask init-db
 $ flask run
 ```
+
+API description
+
+POST /                 request body {lists : [{field:value, ...}, {field:value, ...}]}
+POST /list_id/tasks    request body {task: {filed:value, ...}}
+DELETE tasks/task_id 
+PATCH tasks/task_id    request body {field : value}
+PATCH tasks/tack_id/finish
+
